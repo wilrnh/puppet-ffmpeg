@@ -4,7 +4,7 @@
 #
 class ffmpeg::dbg {
   
-  package{$ffmpeg::params::$dbg_package:
+  package{$ffmpeg::params::dbg_package:
     ensure => $ffmpeg::package_ensure,
   }
 }

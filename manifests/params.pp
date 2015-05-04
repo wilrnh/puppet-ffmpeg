@@ -5,8 +5,8 @@
 class ffmpeg::params {
   
   $package_ensure = 'present'
-  $include_dev    = false,
-  $include_dbg    = false,
+  $include_dev    = false
+  $include_dbg    = false
   
   case $::osfamily {
     'Debian': {
@@ -25,9 +25,7 @@ class ffmpeg::params {
     }
     
     default: {
-      default: {
-        fail("Unsupported platform: ${module_name} currently doesn't support ${::osfamily} or ${::operatingsystem}")
-      }
+      fail("Unsupported platform: ${module_name} currently doesn't support ${::osfamily} or ${::operatingsystem}")
     }
   }
 }

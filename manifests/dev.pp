@@ -4,7 +4,7 @@
 #
 class ffmpeg::dev {
   
-  package{$ffmpeg::params::$dev_packages:
+  package{$ffmpeg::params::dev_packages:
     ensure => $ffmpeg::package_ensure,
   }
 }
