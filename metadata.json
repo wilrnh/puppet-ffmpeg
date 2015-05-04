@@ -1,0 +1,13 @@
+{
+  "name": "wilrnh-ffmpeg",
+  "version": "0.1.0",
+  "author": "wilrnh",
+  "summary": "Manages FFMPEG installation",
+  "license": "Apache 2.0",
+  "source": "https://github.com/wilrnh/puppet-ffmpeg",
+  "project_page": "https://github.com/wilrnh/puppet-ffmpeg",
+  "issues_url": "https://github.com/wilrnh/puppet-ffmpeg/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
