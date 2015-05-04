@@ -61,8 +61,10 @@ Simply include the main class to get started with the default options:
 
 #### Private Classes
 
-`::ffmpeg::install`: Installs FFMPEG packages.
+`::ffmpeg::install`: Installs FFMPEG base packages.
+
 `::ffmpeg::dev`: Installs FFMPEG development packages.
+
 `::ffmpeg::dbg`: Installs FFMPEG debug symbols packages.
 
 ### Parameters

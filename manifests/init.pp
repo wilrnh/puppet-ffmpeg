@@ -33,6 +33,8 @@ class ffmpeg (
     validate_bool($include_dev)
     validate_bool($include_dbg)
     
+    include ffmpeg::install
+    
     if ($include_dev == true){
       include ffmpeg::dev
     }
